@@ -54,7 +54,7 @@
             <input type="text" name="plate" placeholder="Numer rejestracyjny pojazdu" required>
             <input type="text" name="firstname" placeholder="Imię" required pattern="[A-Za-zęóąśłżźćńĘÓĄŚŁŻŹĆŃ]{1,50}" title="Pole może tylko zawierać litery">
             <input type="text" name="lastname" placeholder="Nazwisko" required pattern="[A-Za-zęóąśłżźćńĘÓĄŚŁŻŹĆŃ]{1,50}" title="Pole może tylko zawierać litery">
-            <input type="text" name="email" placeholder="Adres e-mail" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Pole może tylko zawierać poprawny adres email">
+            <input type="text" name="email" placeholder="Adres e-mail" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Pole może tylko zawierać poprawny adres email" <?php echo "value='$_SESSION[email]'" ?>>
             <input type="text" name="phone" placeholder="Numer telefonu" pattern="\d{7,12}" title="Pole może tylko zawierać od 7 do 12 cyfr">
             <input type="text" name="nip" placeholder="(Opcjonalnie) NIP" pattern="[0-9]{10}">
             <input type="submit" value="Przejdź do podsumowania">
