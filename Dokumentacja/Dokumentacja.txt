@@ -1,9 +1,0 @@
-1. Wstęp i opis
-2. Makieta funkcjonalna
-3. Makieta graficzna
-4. Szkielet strony
-	a) hierarchia plików
-	b) sam HTML bez CSS
-5. Stylowanie i pozycjonowanie elementów - CSS
-6. Screenshoty stron
-7. Struktura bazy danych
